@@ -5,17 +5,20 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     faceDetector FaceDetector;
-    float speed = 5f;
-    float lastY = 0;
+    public float speed = 3f;
+    public float lastY = 0;
     void Start()
     {
+        
         FaceDetector = (faceDetector)FindObjectOfType(typeof(faceDetector));
+        
     }
 
     // Update is called once per frame
     public void Update()
 
     {
+        
 
         float step = speed * Time.deltaTime;
 
@@ -36,6 +39,11 @@ public class PlayerController : MonoBehaviour
 
 
 
+
+    }
+    public void FixedUpdate()
+    {
+        
     }
 }
     
