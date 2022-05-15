@@ -4,17 +4,21 @@ using UnityEngine;
 
 public class Obstacle : MonoBehaviour
 {
-    // Start is called before the first frame update
+    private GameObject player;
+
     void Start()
     {
+        player = GameObject.FindGameObjectWithTag("Player");
         Destroy(gameObject, 2f);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.tag == "BORDER")
+      
+
+         if(collision.gameObject.tag == "Player")
         {
-            Destroy(this.gameObject);
+            Destroy(player.gameObject);
         }
     }
     private void Update()

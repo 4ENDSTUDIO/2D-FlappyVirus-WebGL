@@ -460,6 +460,7 @@
     <Compile Include="Assets\OpenCV+Unity\Demo\Scripts\FaceProcessor.cs" />
     <Compile Include="Assets\OpenCV+Unity\Demo\Scripts\WebCamera.cs" />
     <Compile Include="Assets\OpenCV+Unity\Demo\Tracking\TrackingScript.cs" />
+    <Compile Include="Assets\Script\GameOver.cs" />
     <Compile Include="Assets\Script\LoopingBackground.cs" />
     <Compile Include="Assets\Script\Obstacle.cs" />
     <Compile Include="Assets\Script\PlayerController.cs" />
