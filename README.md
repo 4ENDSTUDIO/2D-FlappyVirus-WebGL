@@ -20,7 +20,7 @@ sebagai control gamenya
   - Virus semakin lama gamenya maka virus semakin cepat kecepatanya
 4. Animation 
   - Player
-   * Terbang
+    * Terbang
   - Virus 
     * Idle
 # BASE STORY WRITER
