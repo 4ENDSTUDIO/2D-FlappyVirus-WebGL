@@ -15,10 +15,10 @@ sebagai control gamenya
 3. Skor
   - Skor akan terus bertambah selama player tetap hidup
   - Skor akan berakhir jika player mati
-3. Virus
+4. Virus
   - Virus memiliki damage 1 point health ke player
   - Virus semakin lama gamenya maka virus semakin cepat kecepatanya
-4. Animation 
+5. Animation 
   - Player
     * Terbang
   - Virus 
